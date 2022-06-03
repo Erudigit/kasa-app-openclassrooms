@@ -1,0 +1,16 @@
+.main-menu {
+    display:flex;
+    justify-content:space-between;
+}
+
+.main-menu .link-menu {
+    display:flex;
+}
+
+.main-menu .link-menu li {
+    list-style-type: none;
+}
+
+.main-menu .link-menu a {
+    color:#FF6060;
+}
