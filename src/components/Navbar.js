@@ -1,7 +1,7 @@
-import '../styles/Menu.css'
+import '../styles/Navbar.css'
 /* CSS doesn't load */
 
-function menu() {
+function Navbar() {
     return (
         <div className="main-menu">
             <div class="logo">
@@ -23,4 +23,4 @@ function menu() {
     )
 }
 
-export default menu
+export default Navbar
