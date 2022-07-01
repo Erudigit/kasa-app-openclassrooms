@@ -1,9 +1,10 @@
 .main-menu {
     display:flex;
     justify-content:space-between;
+    margin-top:35px;
 }
 
-.main-menu .link-menu {
+.main-menu .link-menu ul {
     display:flex;
 }
 
@@ -11,6 +12,29 @@
     list-style-type: none;
 }
 
+.main-menu .link-menu li:last-child {
+    margin-left:65px;
+}
+
 .main-menu .link-menu a {
     color:#FF6060;
+    font-size:24px;
+    text-decoration:none;
+    font-weight:500;
+}
+
+@media (max-width: 480px) { 
+    .main-menu {
+        max-width:100%;
+    }
+    .main-menu .logo svg {
+        width:100%;
+    }
+    .main-menu .link-menu a {
+        font-size:18px;
+        text-transform: uppercase;
+    }
+    .main-menu .link-menu li:last-child {
+        margin-left:30px;
+    }
 }

@@ -1,0 +1,121 @@
+.top-part {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.top-part .left-part h1 {
+    color:#FF6060;
+    font-size:36px;
+    font-weight:500;
+}
+
+.top-part .left-part p {
+    color:#FF6060;
+    font-size:18px;
+}
+
+.top-part .user-part {
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.top-part .right-part p {
+    color:#FF6060;
+    font-size:18px;
+    margin-right:10px;
+}
+
+.top-part .right-part .container-img {
+    height:64px;
+    width:64px;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.top-part .right-part .container-img img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.rate-part {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.top-part .tag-part {
+    display:flex;
+}
+
+.top-part .tag-part .tag p {
+    color:white;
+    background-color:#FF6060;
+    font-size:14px;
+    padding:5px 25px;
+    border-radius:15px;
+    margin-right:10px;
+}
+
+.collapse-part {
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
+
+.collapse-part > div {
+    width:45%;
+}
+
+.collapse-part button {
+    background-color:#FF6060;
+    border-radius:5px;
+    border:none;
+    font-size:18px;
+    color:white;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    text-align:left;
+    cursor:pointer;
+}
+.collapse-part .content {
+    border-radius:5px;
+    color:#FF6060;
+}
+
+@media (max-width: 480px) { 
+    .top-part {
+        display:block;
+    }
+    .top-part .right-part {
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .top-part .right-part .user-part {
+        order:1;
+    }
+    .top-part .right-part .user-part .container-img {
+        height:32px;
+        width:32px;
+    }
+    .top-part .right-part .rate-part {
+        order:0;
+    }
+    .top-part .right-part .rate-part svg {
+        height:20px;
+        width:20px;
+    }
+    .collapse-part {
+        display:block;
+    }
+    .collapse-part > div {
+        width:100%;
+        margin-bottom:20px;
+    }
+}

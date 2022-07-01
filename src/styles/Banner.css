@@ -1,0 +1,41 @@
+.banner-top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-top .bckgrnd-opacity {
+    height:100%;
+    width:100%;
+    background-color:rgba(0,0,0,0.3);
+    top:0;
+    left:0;
+    position:absolute;
+    border-radius:25px;
+    z-index:10;
+}
+
+.banner-top h1 {
+    position:absolute;
+    color:white;
+    font-size:48px;
+    font-weight:500;
+    z-index:100;
+}
+
+img {
+    width:100%;
+    border-radius:25px;
+}
+
+.small {
+    height:220px;
+    object-fit:cover;
+}
+
+@media (max-width: 480px) { 
+    .small {
+        height:180px;
+    }
+}

@@ -1,0 +1,38 @@
+.no-page {
+    color:#FF6060;
+    text-align:center;
+}
+
+.no-page h1 {
+    font-size:288px;
+    font-weight:700;
+    margin-top:0;
+    margin-bottom:0;  
+    margin-top:100px;  
+}
+
+.no-page > p {
+    font-size:36px;
+}
+
+.no-page a {
+    color:#FF6060;
+    font-size:18px;
+    margin-top:150px;
+    display:block;
+}
+
+@media (max-width: 480px) { 
+    .no-page h1 {
+        font-size:96px;
+        width:fit-content;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .no-page > p {
+        font-size:18px;
+        width:200px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+} 

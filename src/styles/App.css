@@ -1,5 +1,31 @@
 .App {
+  overflow:hidden;
+}
+
+.App header, .App body > main {
   max-width:1200px;
   margin-left:auto;
   margin-right:auto;
+}
+
+main {
+  margin-top:20px;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.active-link {
+  text-decoration:underline !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li, ol, span, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 480px) { 
+  .App-header, main {
+      margin-left:15px !important;
+      margin-right:15px !important;
+  }
 }

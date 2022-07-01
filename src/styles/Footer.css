@@ -1,0 +1,33 @@
+.footer {
+    background-color:black;
+    color:white;
+    text-align:center;
+    position:relative;
+    z-index:10;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 75px;
+    font-size:24px;
+}
+
+.footer:before {
+    content:'';
+    position:absolute;
+    left:-150vw;
+    background-color:black;
+    height:100%;
+    width:300vw;
+    top:0;
+    z-index:-100;
+}
+
+.footer:after {
+    content:'';
+    position:absolute;
+    right:-150vw;
+    background-color:black;
+    height:100%;
+    width:300vw;
+    z-index:-100;
+    top:0;
+}
